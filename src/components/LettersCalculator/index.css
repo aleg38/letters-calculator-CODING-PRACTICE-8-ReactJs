@@ -1,0 +1,58 @@
+/* Write your code here. */
+.app-container {
+  background-image: linear-gradient(to left, #1d976c, #93f9b9);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 6px;
+}
+.input-text {
+  color: #e4e7eb;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+}
+.input-element {
+  width: 200px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: #e4e7eb;
+  font-size: 13px;
+  font-weight: 400;
+}
+.calculator-btn {
+  height: 42px;
+  width: 150px;
+  text-align: center;
+  border-radius: 6px;
+  background-color: white;
+  color: #219a6f;
+  border-width: 0px;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin-top: 22px;
+  outline: none;
+}
+.image {
+  height: 48vh;
+  width: 38vw;
+}
